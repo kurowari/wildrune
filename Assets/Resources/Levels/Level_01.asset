@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f30057baa8364b9f935ba251b096dfef, type: 3}
+  m_Name: Level_01
+  m_EditorClassIdentifier: 
+  title: Greenward Path
+  biome: meadow
+  description: A long green trail with a safe opening, readable gaps, an optional upper route, spike-then-enemy sequences, and a final precision jump.
+  playerSpawn: {x: 1.3, y: 0.03, z: 0}
+  goalX: 114.5
+  goalY: -999
+  cameraCeiling: 10
+  checkpointY: -999
+  requireBossDefeated: 0
+  platforms:
+  - x: -4
+    topY: 0
+    width: 14
+    style: meadow
+  - x: 13
+    topY: 0
+    width: 8
+    style: meadow
+  - x: 24.5
+    topY: 0
+    width: 8
+    style: meadow
+  - x: 36.5
+    topY: 0
+    width: 8.5
+    style: meadow
+  - x: 49
+    topY: 0
+    width: 9
+    style: meadow
+  - x: 62
+    topY: 0
+    width: 9
+    style: meadow
+  - x: 75.5
+    topY: 0
+    width: 8.5
+    style: meadow
+  - x: 88.5
+    topY: 0
+    width: 8.5
+    style: meadow
+  - x: 102
+    topY: 0
+    width: 14
+    style: meadow
+  - x: 10.35
+    topY: 2.2
+    width: 2.2
+    style: meadow
+  - x: 21.65
+    topY: 2.5
+    width: 2.1
+    style: meadow
+  - x: 33
+    topY: 2.4
+    width: 2.2
+    style: meadow
+  - x: 46
+    topY: 2.7
+    width: 2.2
+    style: meadow
+  - x: 58.8
+    topY: 2.7
+    width: 2.2
+    style: meadow
+  - x: 71.8
+    topY: 3
+    width: 2.2
+    style: meadow
+  - x: 76.8
+    topY: 3
+    width: 2.6
+    style: meadow
+  - x: 82.2
+    topY: 4.25
+    width: 1.8
+    style: meadow
+  - x: 88.4
+    topY: 3
+    width: 1.9
+    style: stone
+  walls: []
+  enemies:
+  - x: 6
+    y: 0.03
+    kind: 0
+    patrolMin: 3.5
+    patrolMax: 8
+  - x: 20.2
+    y: 0.03
+    kind: 0
+    patrolMin: 19
+    patrolMax: 21.3
+  - x: 28.5
+    y: 0.03
+    kind: 1
+    patrolMin: 26
+    patrolMax: 31.5
+  - x: 43.6
+    y: 0.03
+    kind: 0
+    patrolMin: 42.6
+    patrolMax: 44.6
+  - x: 47.26
+    y: 2.73
+    kind: 2
+    patrolMin: 46.66
+    patrolMax: 47.77
+  - x: 59.8
+    y: 2.73
+    kind: 1
+    patrolMin: 59
+    patrolMax: 60.5
+  - x: 66
+    y: 0.03
+    kind: 0
+    patrolMin: 63.5
+    patrolMax: 69.5
+  - x: 83.3
+    y: 0.03
+    kind: 0
+    patrolMin: 82.4
+    patrolMax: 83.7
+  - x: 94
+    y: 0.03
+    kind: 1
+    patrolMin: 90
+    patrolMax: 96
+  - x: 111.2
+    y: 0.03
+    kind: 4
+    patrolMin: 110.1
+    patrolMax: 112.6
+  spikes:
+  - 18
+  - 39.5
+  - 54.5
+  - 80.5
+  - 108.5
+  spikePositions: []
+  pickups:
+  - x: 11.47
+    y: 0.67
+  - x: 22.72
+    y: 3.99
+  - x: 47
+    y: 4.4
+  - x: 60
+    y: 4
+  - x: 83
+    y: 5.35
+  - x: 99
+    y: 3.4
+  - x: 110
+    y: 2.5
+  - x: 78.12
+    y: 3.99
+  checkpointX: 65

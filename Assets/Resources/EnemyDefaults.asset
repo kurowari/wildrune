@@ -1,0 +1,327 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c17327aeaea343e6b1fd4b02e8064c6e, type: 3}
+  m_Name: EnemyDefaults
+  m_EditorClassIdentifier: 
+  profiles:
+  - kind: 0
+    displayName: Hopping Slime
+    frame0: {fileID: 2800000, guid: 646ac20944733f80468f432ff30bbbfd, type: 3}
+    frame1: {fileID: 2800000, guid: 9add3a0bc1547dc26ce5e83a821d4bf7, type: 3}
+    pixelsPerUnit: 32
+    visualScale: 1
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    animationFrameInterval: 0.31
+    health: 2
+    moveSpeed: 1.7
+    touchDamage: 1
+    scoreValue: 75
+    gravityScale: 3.2
+    colliderSize: {x: 0.55, y: 0.44}
+    colliderOffset: {x: 0, y: 0.28}
+    behaviour: 4
+    detectionRange: 5
+    detectionVerticalRange: 3.2
+    chaseStopDistance: 1.2
+    contactRange: 0.78
+    contactVerticalRange: 1.1
+    contactCooldown: 1.05
+    closeRangeSpeedMultiplier: 0.35
+    rangedRetreatDistance: 4.5
+    rangedPreferredDistance: 8.5
+    rangedApproachLimit: 13
+    rangedAttackRange: 12
+    rangedVerticalRange: 4
+    rangedCooldownMin: 1.55
+    rangedCooldownMax: 2.2
+    projectileSpeed: 9.3
+    projectileDamage: 1
+    projectileSpriteKey: projectile_enemy_arrow
+    projectileTexture: {fileID: 0}
+    projectilePixelsPerUnit: 32
+    projectileOriginHeight: 0.63
+    bossVolleyRange: 4.5
+    bossVolleyCooldown: 2.1
+    bossVolleySpreadDegrees: 9
+    bossVolleyCount: 3
+    bossProjectileSpeed: 10.5
+    bossProjectileDamage: 1
+    bossProjectileOriginHeight: 0.86
+    hopVelocity: 6
+    hopIntervalMin: 1.1
+    hopIntervalMax: 1.8
+    firstHopDelayMin: 0.5
+    firstHopDelayMax: 1.4
+    flyingChaseRange: 7
+    flyingTargetYOffset: 0.7
+    flyingHoverAmplitude: 0.55
+    flyingHoverFrequency: 2.8
+  - kind: 1
+    displayName: Goblin Swordsman
+    frame0: {fileID: 2800000, guid: 4f1405d1915229a728ead440a5c58771, type: 3}
+    frame1: {fileID: 2800000, guid: 764af550ddec72afdb3a59103f2c9bc4, type: 3}
+    pixelsPerUnit: 48
+    visualScale: 1
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    animationFrameInterval: 0.31
+    health: 3
+    moveSpeed: 2.1
+    touchDamage: 1
+    scoreValue: 100
+    gravityScale: 3.2
+    colliderSize: {x: 0.68, y: 0.72}
+    colliderOffset: {x: 0, y: 0.4}
+    behaviour: 1
+    detectionRange: 5
+    detectionVerticalRange: 3.2
+    chaseStopDistance: 1.2
+    contactRange: 0.78
+    contactVerticalRange: 1.1
+    contactCooldown: 1.05
+    closeRangeSpeedMultiplier: 0.35
+    rangedRetreatDistance: 4.5
+    rangedPreferredDistance: 8.5
+    rangedApproachLimit: 13
+    rangedAttackRange: 12
+    rangedVerticalRange: 4
+    rangedCooldownMin: 1.55
+    rangedCooldownMax: 2.2
+    projectileSpeed: 9.3
+    projectileDamage: 1
+    projectileSpriteKey: projectile_enemy_arrow
+    projectileTexture: {fileID: 0}
+    projectilePixelsPerUnit: 32
+    projectileOriginHeight: 0.63
+    bossVolleyRange: 4.5
+    bossVolleyCooldown: 2.1
+    bossVolleySpreadDegrees: 9
+    bossVolleyCount: 3
+    bossProjectileSpeed: 10.5
+    bossProjectileDamage: 1
+    bossProjectileOriginHeight: 0.86
+    hopVelocity: 6
+    hopIntervalMin: 1.1
+    hopIntervalMax: 1.8
+    firstHopDelayMin: 0.5
+    firstHopDelayMax: 1.4
+    flyingChaseRange: 7
+    flyingTargetYOffset: 0.7
+    flyingHoverAmplitude: 0.55
+    flyingHoverFrequency: 2.8
+  - kind: 2
+    displayName: Mushroom Slinger
+    frame0: {fileID: 2800000, guid: 1c683f0ae2200e0c584faa3b6e8648de, type: 3}
+    frame1: {fileID: 2800000, guid: 375404fec9aefa4771cec39a938ea0d1, type: 3}
+    pixelsPerUnit: 48
+    visualScale: 1
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    animationFrameInterval: 0.31
+    health: 2
+    moveSpeed: 1
+    touchDamage: 1
+    scoreValue: 125
+    gravityScale: 3.2
+    colliderSize: {x: 0.68, y: 0.8}
+    colliderOffset: {x: 0, y: 0.4}
+    behaviour: 2
+    detectionRange: 5
+    detectionVerticalRange: 3.2
+    chaseStopDistance: 1.2
+    contactRange: 0.78
+    contactVerticalRange: 1.1
+    contactCooldown: 1.05
+    closeRangeSpeedMultiplier: 0.35
+    rangedRetreatDistance: 4.5
+    rangedPreferredDistance: 8.5
+    rangedApproachLimit: 13
+    rangedAttackRange: 12
+    rangedVerticalRange: 4
+    rangedCooldownMin: 1.55
+    rangedCooldownMax: 2.2
+    projectileSpeed: 9.3
+    projectileDamage: 1
+    projectileSpriteKey: projectile_enemy_arrow
+    projectileTexture: {fileID: 2800000, guid: a860483abcb74f3999974b544d4aee8f, type: 3}
+    projectilePixelsPerUnit: 24
+    projectileOriginHeight: 0.63
+    bossVolleyRange: 4.5
+    bossVolleyCooldown: 2.1
+    bossVolleySpreadDegrees: 9
+    bossVolleyCount: 3
+    bossProjectileSpeed: 10.5
+    bossProjectileDamage: 1
+    bossProjectileOriginHeight: 0.86
+    hopVelocity: 6
+    hopIntervalMin: 1.1
+    hopIntervalMax: 1.8
+    firstHopDelayMin: 0.5
+    firstHopDelayMax: 1.4
+    flyingChaseRange: 7
+    flyingTargetYOffset: 0.7
+    flyingHoverAmplitude: 0.55
+    flyingHoverFrequency: 2.8
+  - kind: 3
+    displayName: Flying Eye
+    frame0: {fileID: 2800000, guid: 5fef49ee66c15ba5075afe64955b60d6, type: 3}
+    frame1: {fileID: 2800000, guid: 78e5265e0b9c47b3ee942d7fee2bd365, type: 3}
+    pixelsPerUnit: 48
+    visualScale: 1
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    animationFrameInterval: 0.31
+    health: 1
+    moveSpeed: 2.5
+    touchDamage: 1
+    scoreValue: 100
+    gravityScale: 0
+    colliderSize: {x: 0.9, y: 0.61}
+    colliderOffset: {x: 0, y: 0.48}
+    behaviour: 3
+    detectionRange: 5
+    detectionVerticalRange: 3.2
+    chaseStopDistance: 1.2
+    contactRange: 0.78
+    contactVerticalRange: 1.1
+    contactCooldown: 1.05
+    closeRangeSpeedMultiplier: 0.35
+    rangedRetreatDistance: 4.5
+    rangedPreferredDistance: 8.5
+    rangedApproachLimit: 13
+    rangedAttackRange: 12
+    rangedVerticalRange: 4
+    rangedCooldownMin: 1.55
+    rangedCooldownMax: 2.2
+    projectileSpeed: 9.3
+    projectileDamage: 1
+    projectileSpriteKey: projectile_enemy_arrow
+    projectileTexture: {fileID: 0}
+    projectilePixelsPerUnit: 32
+    projectileOriginHeight: 0.63
+    bossVolleyRange: 4.5
+    bossVolleyCooldown: 2.1
+    bossVolleySpreadDegrees: 9
+    bossVolleyCount: 3
+    bossProjectileSpeed: 10.5
+    bossProjectileDamage: 1
+    bossProjectileOriginHeight: 0.86
+    hopVelocity: 6
+    hopIntervalMin: 1.1
+    hopIntervalMax: 1.8
+    firstHopDelayMin: 0.5
+    firstHopDelayMax: 1.4
+    flyingChaseRange: 7
+    flyingTargetYOffset: 0.7
+    flyingHoverAmplitude: 0.55
+    flyingHoverFrequency: 2.8
+  - kind: 4
+    displayName: Skeleton Heavy
+    frame0: {fileID: 2800000, guid: cb12bc47da4646149e86a11601be442e, type: 3}
+    frame1: {fileID: 2800000, guid: 9e625bd030ecf7eb0e8c9d4c84a53647, type: 3}
+    pixelsPerUnit: 48
+    visualScale: 1
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    animationFrameInterval: 0.31
+    health: 5
+    moveSpeed: 1.25
+    touchDamage: 1
+    scoreValue: 200
+    gravityScale: 3.4
+    colliderSize: {x: 0.82, y: 1.12}
+    colliderOffset: {x: 0, y: 0.56}
+    behaviour: 1
+    detectionRange: 5
+    detectionVerticalRange: 3.2
+    chaseStopDistance: 1.2
+    contactRange: 1.15
+    contactVerticalRange: 1.1
+    contactCooldown: 1.05
+    closeRangeSpeedMultiplier: 0.35
+    rangedRetreatDistance: 4.5
+    rangedPreferredDistance: 8.5
+    rangedApproachLimit: 13
+    rangedAttackRange: 12
+    rangedVerticalRange: 4
+    rangedCooldownMin: 1.55
+    rangedCooldownMax: 2.2
+    projectileSpeed: 9.3
+    projectileDamage: 1
+    projectileSpriteKey: projectile_enemy_arrow
+    projectileTexture: {fileID: 0}
+    projectilePixelsPerUnit: 32
+    projectileOriginHeight: 0.63
+    bossVolleyRange: 4.5
+    bossVolleyCooldown: 2.1
+    bossVolleySpreadDegrees: 9
+    bossVolleyCount: 3
+    bossProjectileSpeed: 10.5
+    bossProjectileDamage: 1
+    bossProjectileOriginHeight: 0.86
+    hopVelocity: 6
+    hopIntervalMin: 1.1
+    hopIntervalMax: 1.8
+    firstHopDelayMin: 0.5
+    firstHopDelayMax: 1.4
+    flyingChaseRange: 7
+    flyingTargetYOffset: 0.7
+    flyingHoverAmplitude: 0.55
+    flyingHoverFrequency: 2.8
+  - kind: 5
+    displayName: Crown Warden
+    frame0: {fileID: 2800000, guid: 9792300eff018dba2a3acd78c3487f4b, type: 3}
+    frame1: {fileID: 2800000, guid: cb60d41cfc88bd9dd21fdcaaa2e45bf3, type: 3}
+    pixelsPerUnit: 48
+    visualScale: 1
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    animationFrameInterval: 0.22
+    health: 12
+    moveSpeed: 1.25
+    touchDamage: 1
+    scoreValue: 1500
+    gravityScale: 3.4
+    colliderSize: {x: 1.18, y: 1.42}
+    colliderOffset: {x: 0, y: 0.68}
+    behaviour: 5
+    detectionRange: 13
+    detectionVerticalRange: 3.2
+    chaseStopDistance: 1.2
+    contactRange: 1.15
+    contactVerticalRange: 1.1
+    contactCooldown: 0.85
+    closeRangeSpeedMultiplier: 0.35
+    rangedRetreatDistance: 4.5
+    rangedPreferredDistance: 8.5
+    rangedApproachLimit: 13
+    rangedAttackRange: 12
+    rangedVerticalRange: 4
+    rangedCooldownMin: 1.55
+    rangedCooldownMax: 2.2
+    projectileSpeed: 9.3
+    projectileDamage: 1
+    projectileSpriteKey: projectile_enemy_arrow
+    projectileTexture: {fileID: 0}
+    projectilePixelsPerUnit: 32
+    projectileOriginHeight: 0.63
+    bossVolleyRange: 4.5
+    bossVolleyCooldown: 2.1
+    bossVolleySpreadDegrees: 9
+    bossVolleyCount: 3
+    bossProjectileSpeed: 10.5
+    bossProjectileDamage: 1
+    bossProjectileOriginHeight: 0.86
+    hopVelocity: 6
+    hopIntervalMin: 1.1
+    hopIntervalMax: 1.8
+    firstHopDelayMin: 0.5
+    firstHopDelayMax: 1.4
+    flyingChaseRange: 7
+    flyingTargetYOffset: 0.7
+    flyingHoverAmplitude: 0.55
+    flyingHoverFrequency: 2.8

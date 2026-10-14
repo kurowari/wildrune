@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f30057baa8364b9f935ba251b096dfef, type: 3}
+  m_Name: Level_04
+  m_EditorClassIdentifier: 
+  title: Moonleaf Canopy
+  biome: canopy
+  description: 'A true vertical climb: stepped warm-up, two wall-jump chimneys, optional side ledges, a mid-climb checkpoint, and a gate at the summit.'
+  playerSpawn: {x: 1.2, y: 0.03, z: 0}
+  goalX: 18.5
+  goalY: 29.5
+  cameraCeiling: 34
+  checkpointY: 16
+  requireBossDefeated: 0
+  platforms:
+  - x: -4
+    topY: 0
+    width: 16
+    style: canopy
+  - x: 12.5
+    topY: 2.2
+    width: 3.4
+    style: canopy
+  - x: 16.6
+    topY: 4.2
+    width: 3.2
+    style: canopy
+  - x: 13
+    topY: 6.2
+    width: 3.2
+    style: canopy
+  - x: 9.1
+    topY: 7.5
+    width: 3.3
+    style: stone
+  - x: 13.3
+    topY: 16
+    width: 3.5
+    style: canopy
+  - x: 15.8
+    topY: 19.2
+    width: 3.2
+    style: canopy
+  - x: 9.1
+    topY: 21
+    width: 5.4
+    style: stone
+  - x: 14.1
+    topY: 29.5
+    width: 5.5
+    style: stone
+  - x: 14.4
+    topY: 12.8
+    width: 3.53
+    style: canopy
+  - x: 16.5
+    topY: 9.5
+    width: 2.86
+    style: canopy
+  - x: 1.7
+    topY: 11.5
+    width: 2.2
+    style: canopy
+  walls:
+  - x: 8.1
+    bottomY: 7.5
+    height: 8.5
+    width: 1
+    style: stone
+  - x: 12.3
+    bottomY: 9.1
+    height: 6.9
+    width: 1
+    style: stone
+  - x: 8.1
+    bottomY: 21
+    height: 8.5
+    width: 1
+    style: stone
+  - x: 13.1
+    bottomY: 22.7
+    height: 6.8
+    width: 1
+    style: stone
+  enemies:
+  - x: 10.2
+    y: 10.6
+    kind: 3
+    patrolMin: 8.2
+    patrolMax: 11.5
+  - x: 16.1
+    y: 16.03
+    kind: 2
+    patrolMin: 15.7
+    patrolMax: 16.5
+  - x: 15
+    y: 12.83
+    kind: 4
+    patrolMin: 14.6
+    patrolMax: 16.1
+  - x: 10.5
+    y: 24.5
+    kind: 3
+    patrolMin: 9.2
+    patrolMax: 12.8
+  - x: 16.4
+    y: 29.53
+    kind: 2
+    patrolMin: 15.3
+    patrolMax: 17.5
+  spikes: []
+  spikePositions:
+  - {x: 17.6, y: 19.2}
+  pickups:
+  - x: 3.6
+    y: 13.4
+  - x: 18.59
+    y: 6.93
+  - x: 15.6
+    y: 14.1
+  - x: 10.8
+    y: 26.8
+  checkpointX: 14.1

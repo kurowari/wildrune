@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4964de4d886a4b7f90a259b4d0e1326a, type: 3}
+  m_Name: PlatformDefaults
+  m_EditorClassIdentifier: 
+  profiles:
+  - styleKey: meadow
+    displayName: Meadow Grass
+    tileSprite: {fileID: 0}
+    fallbackSpriteKey: tile_grass
+    slippery: 0
+    friction: 0.120
+    bounciness: 0
+    tint: {r: 1, g: 1, b: 1, a: 1}
+  - styleKey: ember
+    displayName: Ember Rock
+    tileSprite: {fileID: 0}
+    fallbackSpriteKey: tile_ember
+    slippery: 0
+    friction: 0.160
+    bounciness: 0
+    tint: {r: 1, g: 1, b: 1, a: 1}
+  - styleKey: ice
+    displayName: Ice
+    tileSprite: {fileID: 0}
+    fallbackSpriteKey: tile_ice
+    slippery: 1
+    friction: 0.000
+    bounciness: 0
+    tint: {r: 1, g: 1, b: 1, a: 1}
+  - styleKey: canopy
+    displayName: Canopy
+    tileSprite: {fileID: 0}
+    fallbackSpriteKey: tile_canopy
+    slippery: 0
+    friction: 0.100
+    bounciness: 0
+    tint: {r: 1, g: 1, b: 1, a: 1}
+  - styleKey: ruins
+    displayName: Ruins
+    tileSprite: {fileID: 0}
+    fallbackSpriteKey: tile_ruins
+    slippery: 0
+    friction: 0.140
+    bounciness: 0
+    tint: {r: 1, g: 1, b: 1, a: 1}
+  - styleKey: stone
+    displayName: Stone
+    tileSprite: {fileID: 0}
+    fallbackSpriteKey: tile_stone
+    slippery: 0
+    friction: 0.160
+    bounciness: 0
+    tint: {r: 1, g: 1, b: 1, a: 1}
+  - styleKey: snow
+    displayName: Snow
+    tileSprite: {fileID: 0}
+    fallbackSpriteKey: tile_snow
+    slippery: 0
+    friction: 0.060
+    bounciness: 0
+    tint: {r: 1, g: 1, b: 1, a: 1}

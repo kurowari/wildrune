@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26bd79b5268f4367b8d3e07b32d69027, type: 3}
+  m_Name: GameTuning
+  m_EditorClassIdentifier: 
+  tuningSchemaVersion: 1
+  normalTimeLimitSeconds: 150
+  hardTimeLimitSeconds: 100
+  coinsPerHeart: 2
+  walkSpeed: 5.8
+  runSpeed: 9
+  groundAcceleration: 38
+  groundDeceleration: 48
+  airAcceleration: 18
+  airDeceleration: 5
+  iceSpeedMultiplier: 1.65
+  iceAcceleration: 36
+  iceDeceleration: 0.25
+  iceTurnAcceleration: 12
+  gravityScale: 3
+  jumpVelocity: 14.5
+  doubleJumpVelocity: 12.8
+  jumpReleaseMultiplier: 0.42
+  wallJumpHorizontalSpeed: 10.8
+  wallSlideMaxFallSpeed: 2.5
+  playerColliderWidth: 0.54
+  playerColliderHeight: 0.92
+  playerVisualScale: 1
+  arrowSpawnForwardOffset: 0.53
+  arrowSpawnHeightOffset: 0
+  projectileColliderWidth: 0.98
+  projectileColliderHeight: 0.5
+  projectileHitRadius: 0.25
+  projectileVisualScale: 1
+  projectileSpeed: 13.5
+  platformColliderDepth: 0.5
+  platformColliderExtraWidth: 0.12
+  groundPlatformDefaultWidth: 8
+  skyPlatformDefaultWidth: 2.5
+  recommendedSkyPlatformRise: 2.2
+  recommendedSkyPlatformGap: 1.25
+  swordDamage: 2
+  arrowDamage: 1
+  bowCooldown: 0.68
+  swordCooldown: 0.38
+  finalBossHealth: 24
+  finalBossScale: 1.38

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2443027b830a48ca97b06bf5341cca55, type: 3}
+  m_Name: WildruneAudioConfig
+  m_EditorClassIdentifier: 
+  titleMusic: {fileID: 8300000, guid: de7f50047b5c2d24fb7adc2e22edaef4, type: 3}
+  meadowMusic: {fileID: 8300000, guid: de7f50047b5c2d24fb7adc2e22edaef4, type: 3}
+  emberMusic: {fileID: 8300000, guid: 66437aaad0fef9044843896aaee86519, type: 3}
+  iceMusic: {fileID: 8300000, guid: 2da91cac572a5b7468a689ed318637cc, type: 3}
+  canopyMusic: {fileID: 8300000, guid: 65c633e3c2992b44691792cc3dbb1907, type: 3}
+  finaleMusic: {fileID: 8300000, guid: c39cde1162bee444e922f223169b4072, type: 3}
+  uiConfirm: {fileID: 8300000, guid: a4e4eb113e733a946a96c9cc367a4f4d, type: 3}
+  uiHover: {fileID: 8300000, guid: 75405aeb26ff92f4a9000393022386a2, type: 3}
+  uiBack: {fileID: 8300000, guid: d5f02ba3430b5d24f8af56d903889a57, type: 3}
+  pause: {fileID: 8300000, guid: 2f3024a6d5c8e03428009a9dcbcb3a70, type: 3}
+  resume: {fileID: 8300000, guid: 39992c6dfe3f6c94992cdc2458ff2d03, type: 3}
+  jump: {fileID: 8300000, guid: 6c0d61932609ad241bf528c847ee9509, type: 3}
+  doubleJump: {fileID: 8300000, guid: 553a9fce0a504844b8c3103dcd4c380a, type: 3}
+  wallJump: {fileID: 8300000, guid: 3ba16793383373b4f9af70987a67de92, type: 3}
+  landing: {fileID: 8300000, guid: 7addef2c914771840930704074b118b4, type: 3}
+  grassFootstep: {fileID: 8300000, guid: 3fb00a06cc341024ab73e81a7e465488, type: 3}
+  stoneFootstep: {fileID: 8300000, guid: bc75d0b271bae9e4197423c20fabbb70, type: 3}
+  iceFootstep: {fileID: 8300000, guid: ab65da6b0ddd19e4199f1439ce71b1b3, type: 3}
+  swordSwing: {fileID: 8300000, guid: 819011be4a54da240a24909d3e0e1572, type: 3}
+  bowShot: {fileID: 8300000, guid: 4d02450f918f55e4491b69c09dfc8d3c, type: 3}
+  arrowImpact: {fileID: 0}
+  enemyHit: {fileID: 8300000, guid: 5dfa979ac510451468f34c606f03a200, type: 3}
+  enemyDeath: {fileID: 8300000, guid: f857f8d431e237846a57b5e91b487667, type: 3}
+  playerHurt: {fileID: 8300000, guid: 9daf702e088e8d7468c01ead96937b70, type: 3}
+  playerDeath: {fileID: 0}
+  coinPickup: {fileID: 8300000, guid: f6220b3da42e8cf479680f670b69a447, type: 3}
+  heal: {fileID: 8300000, guid: 5cf4a4959b3366d43839da2873d6d306, type: 3}
+  checkpoint: {fileID: 8300000, guid: af45f08792100904db93d90841e1869f, type: 3}
+  levelComplete: {fileID: 8300000, guid: af45f08792100904db93d90841e1869f, type: 3}
+  timeUp: {fileID: 8300000, guid: d5f02ba3430b5d24f8af56d903889a57, type: 3}
+  musicVolume: 0.32
+  sfxVolume: 0.78
+  uiVolume: 0.68

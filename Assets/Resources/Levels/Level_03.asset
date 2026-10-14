@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f30057baa8364b9f935ba251b096dfef, type: 3}
+  m_Name: Level_03
+  m_EditorClassIdentifier: 
+  title: Frostbite Crossing
+  biome: ice
+  description: 'A momentum course: gain speed on long ice shelves, then brake and turn precisely before the final spike lane.'
+  playerSpawn: {x: 1.2, y: 0.03, z: 0}
+  goalX: 134.2
+  goalY: -999
+  cameraCeiling: 10
+  checkpointY: -999
+  requireBossDefeated: 0
+  platforms:
+  - x: -4
+    topY: 0
+    width: 16
+    style: ice
+  - x: 17
+    topY: 0
+    width: 10
+    style: ice
+  - x: 32
+    topY: 0
+    width: 10
+    style: ice
+  - x: 47.5
+    topY: 0
+    width: 9
+    style: ice
+  - x: 62
+    topY: 0
+    width: 10
+    style: ice
+  - x: 77.5
+    topY: 0
+    width: 8
+    style: ice
+  - x: 93
+    topY: 0
+    width: 10
+    style: ice
+  - x: 108.5
+    topY: 0
+    width: 10
+    style: ice
+  - x: 124
+    topY: 0
+    width: 11
+    style: ice
+  - x: 27.4
+    topY: 2.8
+    width: 2.4
+    style: ice
+  - x: 59
+    topY: 3
+    width: 2.5
+    style: ice
+  - x: 88.5
+    topY: 3.2
+    width: 2.2
+    style: ice
+  - x: 119
+    topY: 3
+    width: 2.5
+    style: ice
+  walls: []
+  enemies:
+  - x: 7
+    y: 0.03
+    kind: 0
+    patrolMin: 3.5
+    patrolMax: 10
+  - x: 40.3
+    y: 0.03
+    kind: 4
+    patrolMin: 38.7
+    patrolMax: 41.2
+  - x: 54.3
+    y: 0.03
+    kind: 0
+    patrolMin: 52.8
+    patrolMax: 56
+  - x: 68.92
+    y: 0.01
+    kind: 1
+    patrolMin: 68.05
+    patrolMax: 69.77
+  - x: 90
+    y: 3.23
+    kind: 2
+    patrolMin: 89
+    patrolMax: 90.2
+  - x: 101.4
+    y: 0.03
+    kind: 0
+    patrolMin: 99.6
+    patrolMax: 102.5
+  - x: 117
+    y: 2.1
+    kind: 3
+    patrolMin: 114.7
+    patrolMax: 118
+  - x: 130
+    y: 0.03
+    kind: 1
+    patrolMin: 126
+    patrolMax: 132.5
+  spikes:
+  - 51
+  - 66.34
+  - 98
+  - 126.5
+  spikePositions: []
+  pickups:
+  - x: 14.53
+    y: 3.02
+  - x: 28.5
+    y: 4.1
+  - x: 60.5
+    y: 4.3
+  - x: 74.2
+    y: 4.4
+  - x: 90
+    y: 4.4
+  - x: 121
+    y: 4.2
+  - x: 95
+    y: 2
+  - x: 45
+    y: 3
+  checkpointX: 78
